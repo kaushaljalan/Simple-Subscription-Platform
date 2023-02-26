@@ -9,9 +9,6 @@ Create a simple subscription platform(only RESTful APIs with MySQL) in which use
 5. Open your `.env` and configure your database credentials.
 6. Run `php artisan migrate --seed`
 
-## Documentation
-https://documenter.getpostman.com/view/7154640/UVC6j71T
-
 ## Queue
 The post notification to subscribers are queued, so you will need to run `php artisan queue:listen`
 
